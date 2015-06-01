@@ -8,3 +8,8 @@ end
 get '/italian' do
   "Ciao!"
 end
+
+get '/' do
+  erb :index
+end
+
